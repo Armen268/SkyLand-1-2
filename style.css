@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dce1dc;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #274439;
+    padding: 25px;
+}
+
+header h2 {
+    color: rgb(219, 212, 212);
+    display: inline;
+}
+
+.navigation {
+    background-color: #274439;
+    float: right;
+}
+
+.navigation a {
+    color: rgb(193, 189, 189);
+    text-decoration: none;
+    margin: 15px;
+}
+
+.home {
+    background-image: url(./images/lake.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 40px;
+    color: rgb(239, 237, 237);
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #426b50;
+    color: rgb(174, 181, 174);
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 25px;
+}
+
+.about img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.explore {
+    text-align: center;
+    padding: 50px;
+    background-color: #cbdccf;
+}
+
+.explore h2 {
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    width: 28%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #243f35;
+    color: rgb(200, 197, 197);
+    text-align: center;
+    padding: 28px;
+}
